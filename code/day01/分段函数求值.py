@@ -1,0 +1,14 @@
+"""
+分段函数求值
+
+version: 1.0
+author: Ryan
+"""
+x = float(input('x = '))
+if x > 1:
+    y = (3 * x - 5)
+elif x < -1:
+    y = 5 * x +3
+else:
+    y = x + 2
+print('y =' , y)
